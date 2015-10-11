@@ -1,0 +1,406 @@
+/*
+	布局的时候使用的 rem 写
+	字体用的 px2rem 解决
+*/
+
+@base-unit: 64;		//以 iPhone5 的屏幕为基准，视觉稿的单位除以 base-unit 还原
+
+html {
+	font-family: Arial, "Hiragino Sans GB", "Microsoft YaHei",  
+             "WenQuanYi Micro Hei", sans-serif;
+    font-weight: 300; 
+}
+body {
+	background-color: #f6f6f6;      	
+}
+li {
+	list-style: none;
+}
+ul, p {
+	margin: 0;
+	padding: 0;
+}
+input {
+	border: none;
+	outline: none;
+}
+
+@font-face {
+	font-family: "iconfont";
+  	src:url('font/iconfont.woff') format('woff'), /* chrome、firefox */
+  		url('font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  		url('font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size: 40px; /*px*/
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  color: #00bdff;
+}
+.iconfont-star {
+	color: #ddd;
+}
+
+.placetaker {
+	display: inline-block;
+	width: 40px;/*px*/
+}
+
+/* 后面几页重复使用的列表样式 */
+.font-wait {
+	color: #a5a5a5;
+}
+
+.report-list {
+	padding-left: unit(20/@base-unit, rem);
+	padding-right: unit(20/@base-unit, rem);
+	background-color: #fff;
+	color: #5b5b5b;
+	border-bottom: 1px solid #a9a9a9; /*no*/
+	.report-list-item {
+		position: relative;
+		box-sizing: border-box;
+		overflow: hidden;
+		margin-right: unit(10/@base-unit, rem);
+		margin-left: unit(10/@base-unit, rem);
+		padding-top: unit(36/@base-unit, rem);
+		padding-bottom: unit(30/@base-unit, rem);
+		border-bottom: 1px solid #a9a9a9; /*no*/
+	}
+	.rli-item {
+		display: inline-block;
+		position: absolute;		//中文定宽两端对齐没有很好的解决方案，用绝对
+		top: unit(34/@base-unit, rem);
+		margin-left: 15px; /*px*/
+		overflow: hidden;
+		width: unit(128/@base-unit, rem);
+		height: unit(40/@base-unit, rem);
+		font-size: 32px; /*px*/
+		text-align:justify;
+		-moz-text-align-last:justify;
+		-webkit-text-align-last:justify;
+		span { 
+			display: inline-block /* Opera */; 
+			padding-left: 100%; 
+		}
+	}
+	.rli-itemDetail {
+		display: inline-block;
+		margin-left: unit(220/@base-unit, rem);
+		font-size: 28px; /*px*/
+	}
+	.rli-itemDetailMore {
+		width: 100%;
+		margin-top: unit(30/@base-unit, rem);
+		padding-top: unit(36/@base-unit, rem);
+		border-top: 1px solid #ddd; /*no*/
+		span {
+			position: relative;
+			left: 40px; /*px*/
+			margin-left: unit(226/@base-unit, rem);
+			font-size: 28px; /*px*/
+		}
+		p {
+			margin-left: unit(65/@base-unit, rem);
+			font-size: 28px; /*px*/
+		}
+	}
+}
+.report-list li:last-child {
+	border: none;
+}
+
+
+.btn-confirm {
+	display: block;
+	width: 90%;
+	height: unit(80/@base-unit, rem);
+	margin: 0 auto;
+	background-color: #19b9ff;
+	border-radius: unit(10/@base-unit, rem);
+	border-style: none;
+	font-size: 32px; /*px*/
+	color: #fff;
+}
+
+.feedback {
+	background-color: #fff;
+}
+.feedback-img {
+	margin: 0 auto;
+	margin-top: 20%;
+	margin-bottom: unit(65/@base-unit, rem);
+	width: unit(440/@base-unit, rem);
+	height: unit(224/@base-unit, rem);
+	
+}
+.feedback-thanks {
+	margin-bottom: unit(15/@base-unit, rem);
+	text-align: center;
+	color: #ffba00;
+	font-size: 40px; /*px*/
+}
+.feedback-better {
+	text-align: center;
+	color: #d2d2d2;
+	font-size: 28px; /*px*/
+}
+.feedback-btn {
+	display: block;
+	margin: 0 auto;
+	width: unit(400/@base-unit, rem);
+	height: unit(90/@base-unit, rem);
+	background-color: #19bbff;
+	color: #fff;
+	font-size: 32px; /*px*/
+	border: none;
+	border-radius: unit(10/@base-unit, rem);
+	outline: none;
+}
+/* 后面几页重复使用的列表样式 */
+
+/* home */
+#home-header {
+	width: 100%;
+	height: unit(380/@base-unit, rem);	
+	background: url(img/home-bg.png) no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	color: #fff;									// home 的背景
+	.home-header-name {
+		display: inline-block;
+		margin: 0 auto;
+		margin-top: unit(70/@base-unit, rem);
+		font-size: 84px; /*px*/
+		line-height: 84px; /*px*/
+	}												// home 的人名
+	.home-header-submit {
+		position: relative;
+		display: block;
+		left: 50%;
+		margin-top: unit(60/@base-unit, rem);
+		margin-left: unit(-155/@base-unit, rem);
+		width: unit(310/@base-unit, rem);
+		height: unit(80/@base-unit, rem);
+		line-height: unit(80/@base-unit, rem);
+		background: url(img/home-submit-bg.png) no-repeat;
+		background-size: 100% 100%;
+		//需要后面再搭建一个 gulp 用来自动补全前缀， autoprefixer 崩了
+		//右下角有一个图，记得补上去
+		border-radius: unit(10/@base-unit, rem);
+		border-style: none;
+		font-size: 32px; /*px*/
+	}
+	.home-submit-folder {
+		position: absolute;
+		width: unit(42/@base-unit, rem);
+		height: unit(24/@base-unit, rem);
+		right: 0;
+		bottom: 0;
+		background: url(img/home-submit-folder.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+}
+.home-nav {
+	line-height: unit(80/@base-unit, rem);
+	background-color: #fff;
+	text-align: center;
+	font-size: 24px; /*px*/
+	color: #a9a9a9;
+}
+#home-nav-unfinish {
+	float: left;
+	width: 50%;
+	border-bottom: 1px solid #ccc; /*no*/
+}
+#home-nav-finish {
+	display: inline-block;
+	border-bottom: 1px solid #ccc; /*no*/
+	width: 50%;
+}
+.home-nav-focus {
+	border-bottom: 1px solid #157efb!important; /*no*/
+	color: #157efb;
+}
+.home-itemList {			/* 已完成和未完成 list 共用一套样式 */
+	margin-top: unit(36/@base-unit, rem);
+	padding-left: unit(30/@base-unit, rem);
+	padding-right: unit(30/@base-unit, rem);
+	background-color: #fff;
+	border-bottom: 1px solid #a9a9a9; /*no*/
+	.home-itemList-single {
+		box-sizing: border-box;
+		overflow: hidden;
+		padding-top: unit(36/@base-unit, rem);
+		padding-right: unit(20/@base-unit, rem);
+		padding-bottom: unit(30/@base-unit, rem);
+		padding-left: unit(20/@base-unit, rem);
+		line-height: 32px; /*px*/
+		border-bottom: 1px solid #a9a9a9; /*no*/
+		font-size: 32px; /*px*/
+		.hi-single-type {
+			color: #404040;
+		}
+		.hi-single-status {
+			float: right;
+			color: #157efb;
+		}
+		.hi-single-date {
+			float: right;
+			margin-top: unit(20/@base-unit, rem);
+			font-size: 24px; /*px*/
+			line-height: 24px; /*px*/
+			color: #9a9a9a;
+		}
+	}
+
+}
+.home-itemList ul li:last-child {
+	border: none;
+}
+#home-nothing {
+	margin-top: unit(36/@base-unit, rem);
+	background-color: #fff;
+	.home-nothing-bg {
+		position: relative;
+		top: unit(70/@base-unit, rem);
+		margin-bottom: unit(140/@base-unit, rem);
+		width: unit(210/@base-unit, rem);
+		height: unit(210/@base-unit, rem);
+		left: 50%;
+		margin-left: unit(-105/@base-unit, rem);
+		background: url(img/home-nothing-bg.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	.home-nothing-line {
+		padding-bottom: unit(200/@base-unit, rem);
+		text-align: center;
+		font-size: 32px;/*px*/
+		color: #d2d2d2;
+	}
+}
+/* home */
+
+/* detail */
+#detail-response,#submit-response {
+	margin-top: unit(36/@base-unit, rem);
+}
+.detail-btn {
+	margin-top: unit(36/@base-unit, rem);
+	margin-bottom: unit(30/@base-unit, rem);
+}
+#detail-title-btn {
+	transition: transform .3s;
+}
+
+#detail-title-detail {
+	padding-top: 0;
+	padding-bottom: 0;
+	transition: padding-top .3s;
+	transition: padding-bottom .3s;
+	div {
+		margin-left: unit(65/@base-unit, rem);
+	}
+}
+/* detail */
+
+/* thanks */
+.thanks-img {
+	background: url(img/thanks.png) no-repeat;
+	background-size: 100% 100%;
+}
+.thanks-btn {
+	margin-top: 35%;
+}
+/* thanks */
+
+/* submit-suc */
+.submit-suc-img {
+	background: url(img/submit-suc.png) no-repeat;
+	background-size: 100% 100%;
+}
+.submit-suc-detail {
+	margin-top: 20%;
+}
+.submit-suc-home {
+	margin-top: unit(50/@base-unit, rem);
+}
+/* submit-suc */
+
+/* fail */
+#fail-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, .7);
+}
+#fail {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: unit(-262.5/@base-unit, rem);
+	margin-top: unit(-250/@base-unit, rem);
+	width: unit(525/@base-unit, rem);
+	height: unit(500/@base-unit, rem);
+	background-color: #fff;
+	border-radius: unit(10/@base-unit, rem);
+	.fail-img {
+		position: absolute;
+		left: 50%;
+		margin-left: unit(-160/@base-unit, rem);
+		margin-top: unit(50/@base-unit, rem);
+		width: unit(320/@base-unit, rem);
+		height: unit(164/@base-unit, rem);
+		background: url(img/fail.png) no-repeat;
+		background-size: 100% 100%;
+		
+	}
+	.fail-line1 {
+		margin-top: unit(240/@base-unit, rem);
+		margin-bottom: unit(5/@base-unit, rem);
+		text-align: center;
+		color: #ffba00;
+		font-size: 40px; /*px*/
+	}
+	.fail-line2 {
+		text-align: center;
+		color: #d2d2d2;
+		font-size: 28px;/*px*/
+	}
+	.fail-btn {
+		display: block;
+		margin: 0 auto;
+		margin-top: unit(30/@base-unit, rem);
+		width: unit(400/@base-unit, rem);
+		height: unit(80/@base-unit, rem);
+		background-color: #19bbff;
+		color: #fff;
+		font-size: 32px;/*px*/
+		border: none;
+		border-radius: unit(10/@base-unit, rem);
+		outline: none;
+	}
+}
+/* fail */
+
+/* submit */
+.submit-input {
+	border: none;
+	outline: none;
+	line-height: 32px; /*px*/
+	max-width: unit(270/@base-unit, rem);
+}
+.submit-text {
+	width: 100%;
+	height: unit(200/@base-unit, rem);
+	font-size: 20px;/*px*/
+	outline: none;
+	border: none;
+
+}
+/* submit */

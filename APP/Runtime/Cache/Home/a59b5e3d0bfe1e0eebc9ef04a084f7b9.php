@@ -16,7 +16,7 @@
 <body>
 	<header id="home-header">
 		<span class="home-header-name">
-			姚蕤
+			<?php echo session('usrname'); ?>
 		</span>
 		<input type="button" class="home-header-submit" value="报修提交">
 	</header>

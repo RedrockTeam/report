@@ -13,8 +13,8 @@ class SubmitController extends Controller {
 	public function submit(){
 		//先接受get数组，然后再填充到conf里面
 		$conf = [
-			'rzm' => 1635841,
-			'xm' => '杜泽萱',
+			'rzm' => 2013214368,
+			'xm' => 'ling',
 			'ip' => '202.202.41.125',
 			'bt' => '这是测试数据，请穆老师处理',
 			'fwxmh' => 01,

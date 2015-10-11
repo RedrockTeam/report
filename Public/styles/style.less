@@ -41,7 +41,10 @@ input {
   color: #00bdff;
 }
 .iconfont-star {
-	color: #ddd;
+	color: #ccc;
+}
+.iconfont-mark {
+	color: #ffd800;
 }
 
 .placetaker {
@@ -163,6 +166,36 @@ input {
 /* 后面几页重复使用的列表样式 */
 
 /* home */
+#home-unfinishItems {
+	position: absolute;
+	z-index: 1;
+	top: unit(460/@base-unit, rem);
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+}
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 90%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
 #home-header {
 	width: 100%;
 	height: unit(380/@base-unit, rem);	
@@ -262,6 +295,9 @@ input {
 .home-itemList ul li:last-child {
 	border: none;
 }
+.home-itemList ul {
+	border-bottom: 1px solid #a9a9a9; /*no*/
+}
 #home-nothing {
 	margin-top: unit(36/@base-unit, rem);
 	background-color: #fff;
@@ -283,6 +319,7 @@ input {
 		color: #d2d2d2;
 	}
 }
+
 /* home */
 
 /* detail */

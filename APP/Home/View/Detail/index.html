@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<title>详情</title>
 <link rel="stylesheet" href="__PUBLIC__/styles/normalize.min.css">	
-<link rel="stylesheet" href="__PUBLIC__/styles/style.debug.css">	
+<link rel="stylesheet" href="__PUBLIC__/styles/style.debug.css">
+	
 </head>
 <body>
 	<div id="detail-report">
@@ -89,10 +90,10 @@
 					满意度<span></span>
 				</div>
 				<div class="rli-itemDetail">
-					<i class="iconfont iconfont-star">&#xe686;</i>
-					<i class="iconfont iconfont-star">&#xe686;</i>
-					<i class="iconfont iconfont-star">&#xe686;</i>
-					<i class="iconfont iconfont-star">&#xe686;</i>
+					<i class="iconfont iconfont-mark">&#xe686;</i>
+					<i class="iconfont iconfont-mark">&#xe686;</i>
+					<i class="iconfont iconfont-mark">&#xe686;</i>
+					<i class="iconfont iconfont-mark">&#xe686;</i>
 				</div>
 			</li>
 			<li class="report-list-item">
@@ -103,12 +104,12 @@
 				<div class="rli-itemDetail">
 					
 				</div>
-				<div class="rli-itemDetailMore">
-					<p>
-						重庆邮电大学重庆邮电大学重庆邮电大学重庆邮电大学重庆邮电大学重庆邮电大学重庆邮电大学重
-					</p>
-				</div>
 			</li>
+			<div class="rli-itemDetailMore" style="margin-top: 0;font-size: 20px;">
+				<textarea class="submit-text">请在这里输入内容
+					
+				</textarea>
+			</div>
 		</ul>
 	</div>	
 	<div class="detail-btn">
@@ -131,41 +132,5 @@
 </body>
 <script src="__PUBLIC__/scripts/zepto.js"></script>
 <script src="__PUBLIC__/scripts/flexible.js"></script>
-<script type="text/javascript">
-(function(){
-	var $detailBtn = $("#detail-title-btn");
-	var $ditailDetail = $("#detail-title-detail");
-	var $detailStars = $(".rli-itemDetail .iconfont-star");
-	var $detailConfirm = $("#detail-confirm");
-	var $failContainer = $("#fail-container");
-	var $failConfirm = $("#fail-btn");
-
-	$detailBtn.click(function(){
-		if($detailBtn.css("transform")==="rotate(0deg)") {
-			$detailBtn.css({transform: "rotate(180deg)"});
-			$ditailDetail.css({height: "auto",paddingTop: "0.5625rem",paddingBottom: "0.5625rem"});
-		}else {
-			$detailBtn.css({transform: "rotate(0deg)"});
-			$ditailDetail.css({height: 0,paddingTop: 0,paddingBottom: 0});
-		}
-	});
-
-	for(var i=0; i<$detailStars.length; i++) {
-		(function() {
-			$detailStars[i].addEventListener('click', function(){
-				this.innerHTML = "&#xe685;";
-			}, false);
-		}());
-	}									/* 点星星有闭包问题 */
-
-	$detailConfirm.click(function(){
-		$failContainer.css({display: "block", marginTop: window.scrollY + "px", height: document.documentElement.clientHeight  + "px"});
-	});
-
-	$failConfirm.click(function(){
-		$failContainer.css({display: "none"});
-	});									/* 待做防止滑动 */
-
-}());
-</script>
+<script src="__PUBLIC__/scripts/detail.js"></script>
 </html>

@@ -482,3 +482,182 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
 
+[ 2015-10-11T14:06:14+08:00 ] ::1 /report/?m=Home&c=Detail&a=getInfo_by_wxdh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined index: cateId /Users/duzexuan/www/report/APP/Home/Common/function.php 第 9 行.
+NOTIC: [8] Undefined index: rzm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: wxdjh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: hfmyd /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: hfjy /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: rzm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: xm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: ip /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bt /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: fwxmh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxdh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: fwqyh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxdd /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxnr /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2015-10-11T14:07:07+08:00 ] ::1 /report/?m=Home&c=Detail&a=getInfo_by_wxdh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index: cateId /Users/duzexuan/www/report/APP/Home/Common/function.php 第 9 行.
+NOTIC: [8] Undefined index: rzm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: wxdjh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: hfmyd /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: hfjy /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: rzm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: xm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: ip /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bt /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: fwxmh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxdh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: fwqyh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxdd /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxnr /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2015-10-11T14:08:30+08:00 ] ::1 /report/?m=Home&c=Detail&a=getInfo_by_wxdh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined index: cateId /Users/duzexuan/www/report/APP/Home/Common/function.php 第 9 行.
+NOTIC: [8] Undefined index: rzm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: wxdjh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: hfmyd /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: hfjy /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: rzm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: xm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: ip /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bt /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: fwxmh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxdh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: fwqyh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxdd /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxnr /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: RepairDetail /Users/duzexuan/www/report/APP/Home/Common/function.php 第 82 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2015-10-11T14:08:44+08:00 ] ::1 /report/?m=Home&c=Detail&a=getInfo_by_wxdh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined index: cateId /Users/duzexuan/www/report/APP/Home/Common/function.php 第 9 行.
+NOTIC: [8] Undefined index: rzm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: wxdjh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: hfmyd /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: hfjy /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: rzm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: xm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: ip /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bt /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: fwxmh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxdh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: fwqyh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxdd /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxnr /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: RepairDetail /Users/duzexuan/www/report/APP/Home/Common/function.php 第 83 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2015-10-11T14:09:08+08:00 ] ::1 /report/?m=Home&c=Detail&a=getInfo_by_wxdh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined index: cateId /Users/duzexuan/www/report/APP/Home/Common/function.php 第 9 行.
+NOTIC: [8] Undefined index: rzm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: wxdjh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: hfmyd /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: hfjy /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: rzm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: xm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: ip /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bt /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: fwxmh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxdh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: fwqyh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxdd /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxnr /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2015-10-11T14:09:26+08:00 ] ::1 /report/?m=Home&c=Detail&a=getInfo_by_wxdh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+NOTIC: [8] Undefined index: cateId /Users/duzexuan/www/report/APP/Home/Common/function.php 第 9 行.
+NOTIC: [8] Undefined index: rzm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: wxdjh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: hfmyd /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: hfjy /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: rzm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: xm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: ip /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bt /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: fwxmh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxdh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: fwqyh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxdd /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxnr /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2015-10-11T14:10:13+08:00 ] ::1 /report/?m=Home&c=Detail&a=getInfo_by_wxdh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Undefined index: cateId /Users/duzexuan/www/report/APP/Home/Common/function.php 第 9 行.
+NOTIC: [8] Undefined index: rzm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: wxdjh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: hfmyd /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: hfjy /Users/duzexuan/www/report/APP/Home/Common/function.php 第 12 行.
+NOTIC: [8] Undefined index: rzm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: xm /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: ip /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bt /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: fwxmh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxdh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: fwqyh /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxdd /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [8] Undefined index: bxnr /Users/duzexuan/www/report/APP/Home/Common/function.php 第 13 行.
+NOTIC: [2] Illegal string offset 'GetRepairDetailResult' /Users/duzexuan/www/report/APP/Home/Common/function.php 第 82 行.
+NOTIC: [8] Uninitialized string offset: 0 /Users/duzexuan/www/report/APP/Home/Common/function.php 第 82 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+

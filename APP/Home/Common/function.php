@@ -78,7 +78,9 @@ $data: 获取的xml格式原始数组
 $xmlRes: 经过便利后的有效数组
 */
 function dell_Detail($data){
-
+	$result = null; //结果数组
+	$xmlRes = $data["soap:Body"]["GetRepairDetailResponse"]["GetRepairDetailResult"];
+	return $xmlRes;//返回
 }
 function dell_TypeCategories($data){
 	$result = null; //结果数组
